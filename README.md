@@ -6,7 +6,6 @@ This is a project to get started with React that consists of 3 mini-projects.
      3-A calculator.
 
 ## Technologies
-
 For this project we have used:
      1. javaScript
      1. HTML
