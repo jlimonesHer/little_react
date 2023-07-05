@@ -8,10 +8,10 @@ function Button(props) {
   };
   
   return (
-    <div className={`container_button ${is_operator(props.children) ? 'operator' : ''}`.trimEnd()}
+    <button className={`container_button ${is_operator(props.children) ? 'operator' : ''}`.trimEnd()}
     onClick={ () => props.manClick(props.children) }>
       { props.children }
-    </div>
+    </button>
   )
 }
 
