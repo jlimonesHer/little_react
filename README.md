@@ -8,7 +8,7 @@ This is a project to get started with React that consists of 3 mini-projects.
 ## Technologies
 For this project we have used:
      1. javaScript
-     1. HTML
+     2. HTML
      1. CSS
      1. React
 
