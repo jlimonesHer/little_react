@@ -7,11 +7,12 @@ This is a project to get started with React that consists of 3 mini-projects.
 
 ## Technologies
 For this project we have used:
-***
+```
      1. javaScript
      2. HTML
-     1. CSS
-     1. React
+     3. CSS
+     4. React
+```
 
 ## Installation
 ***
