@@ -2,8 +2,9 @@
 
 This is a project to get started with React that consists of 3 mini-projects.
      1 - Reproduction of the freeCodeCamp reviews page.
-     2 -A Click counter.
-     3-A calculator.
+     2 - A Click counter.
+     3 - A Calculator.
+     4 - A Tasks Manager. 
 
 ## Technologies
 For this project we have used:
@@ -20,5 +21,6 @@ A little intro about the installation.
 ```
 $ git clone https://github.com/jlimonesHer/little_react.git
 $ npm install mathjs
+$ npm install uuid
 $ npm start
 ```
