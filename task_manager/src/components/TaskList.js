@@ -14,6 +14,21 @@ function TaskList() {
     }
   }
 
+  const deleteTask = id => {
+    const currentTask = tasks.filter(newtask => newtask.id !== id);
+    setTasks(currentTask);
+  }
+
+  const taskCompleted = id => {
+    const currentTask = tasks.map(newtask => {
+      if (newtask.id === id) {
+        newtask.completed = !newtask.completed;
+      }
+      return newtask;
+    });
+    setTasks(currentTask);
+  }
+
   return (
     <>
       <TaskForm onSubmit={addTask} />
@@ -24,7 +39,9 @@ function TaskList() {
             key={newtask.id}
             id={newtask.id}
             text={newtask.text}
-            completed={newtask.completed} />
+            completed={newtask.completed} 
+            deleteTask={deleteTask}
+            taskCompleted = {taskCompleted} />
           )
         }
       </div>

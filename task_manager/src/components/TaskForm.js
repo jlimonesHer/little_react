@@ -18,6 +18,7 @@ function TaskForm(props) {
       completed: false
     }
     props.onSubmit(newtask);
+    setInput('');
   }
 
 
@@ -26,6 +27,7 @@ function TaskForm(props) {
       <input 
         className="task_input"
         type='text'
+        value={input}
         placeholder="write a task"
         name="text"
         onChange={handleChange}
